@@ -1,0 +1,24 @@
+ Volume in drive C has no label.
+ Volume Serial Number is D297-20CE
+
+ Directory of C:\Users\YuriySukhorukov\operating systems\week4
+
+09/12/2018  06:10 PM    <DIR>          .
+09/12/2018  06:10 PM    <DIR>          ..
+09/12/2018  06:12 PM                 0 EMptyFile.txt
+09/12/2018  04:35 PM               371 ex1.c
+09/12/2018  04:35 PM             8,760 ex1.exe
+09/12/2018  04:45 PM               117 ex1.sh
+09/12/2018  05:14 PM             8,656 ex2.exe
+09/12/2018  05:13 PM               224 ex2.sh
+09/12/2018  05:30 PM               220 ex21.c
+09/12/2018  06:02 PM             8,656 ex21.exe
+09/12/2018  05:45 PM               225 ex21.sh
+09/12/2018  05:31 PM               220 ex22.c
+09/12/2018  05:44 PM             8,656 ex22.exe
+09/12/2018  05:45 PM               225 ex22.sh
+09/12/2018  06:02 PM               166 ex3.c
+09/12/2018  06:05 PM            40,815 ex3.exe
+09/12/2018  05:46 PM            81,408 typescript
+              15 File(s)        158,719 bytes
+               2 Dir(s)  10,114,514,944 bytes free

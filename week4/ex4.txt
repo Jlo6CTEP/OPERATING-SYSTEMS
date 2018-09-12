@@ -1,0 +1,4 @@
+My 3rd solution already can work with arguments, pipes etc, and i dont know
+how to saw off this functionality besides ignoring arguments
+(i.e. with scanf which ignores everything after " ").
+ But it is not fun :))
