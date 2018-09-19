@@ -8,6 +8,7 @@ const char file[] = "race.txt";
 
 int main() {
 	HANDLE hFile = CreateFile(file, GENERIC_READ|FILE_APPEND_DATA, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+	// to obtain asynchronous mode add FILE_SHARE_READ | FILE_SHARE_WRITE instead of 0 in previous line
 	int i = 0;
 	while(i <= 60) {
 		unsigned long int size = GetFileSize(hFile,NULL);
