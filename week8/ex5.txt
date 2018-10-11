@@ -1,0 +1,2 @@
+Physical adresses exist in real, physical RAM chip. 
+Virtual adresses can be on RAM or secondary memory

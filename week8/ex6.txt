@@ -1,0 +1,2 @@
+Since we have 16bit adresses and 8kb pages, 3 bits needed to determine 1 of 8 virtual pages, and 13 bits to calculate offset. 
+So ansver is 8 entities.

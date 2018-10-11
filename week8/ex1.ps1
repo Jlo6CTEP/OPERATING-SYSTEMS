@@ -1,0 +1,1 @@
+systeminfo | findstr /C:"Physical Memory" /C:"Virtual Memory" > ex1.txt
