@@ -1,0 +1,2 @@
+First programm prints two hello cus since argument of printf has no \n at the end of the line, it will be placed into the buffer and forked, then upon printing \n sumbol both buffers will be shown.
+In the second example we just print argument immediatly so there is only one hello message. and two new lines, of course. 

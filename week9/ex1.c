@@ -16,30 +16,7 @@ int main(int args, char** kwargs) {
 
 	int size = atoi(kwargs[1]);
 
-	page *frame = (page*)malloc(size*sizeof(page));
-
-	
-	for (int i = 0; i < size; i++) {
-		frame[0].id = 0;
-		frame[0].time = 0;
-	}
-	
-	printf("id, time:  %d\n ", 1);
-		
-		for (int i = 0; i < size; i++) {
-			printf(" %d", frame[i].id);
-		}
-
-		
-		printf("\n time: \n ");
-				
-		
-		for (int i = 0; i < size; i++) {
-			printf(" %d", frame[i].time);
-		}
-
-		printf("\n");
-		
+	page *frame = (page*)calloc(size,sizeof(page));
 
 	int time = 1;
 
@@ -62,9 +39,9 @@ int main(int args, char** kwargs) {
 
 	free(frame);
 
-	float mis_hit = mis_count/hit_count;
+	float mis_hit = (float)(hit_count)/mis_count;
 
-	printf("mis/hit ratio %f",mis_hit);
+	printf("hit/mis ratio %f",mis_hit);
 	
 	return 0;
 } 
@@ -81,7 +58,7 @@ int find_oldest(page *frame, int size) {
 int is_inframe(page *frame, int size, int id) {
 	int contains = 0;
 	for (int i = 0; i < size; i++) {
-		if (frame[0].id == id) {
+		if (frame[i].id == id) {
 			contains = 1;
 		}
 	}

@@ -1,0 +1,5 @@
+To increase hit/miss ratio i used sequence with repetitions, that is not separated by big "distance". 
+It means, that we load page into memory when we need it, do all possible stuff with it and unload, and then never load it again
+
+To decrease hit/miss ratio we need load-unload pages as much as we can, so the best option here will be sequence with no repetitions at all, 
+which will give us 0.0 hit/miss ratio. 
